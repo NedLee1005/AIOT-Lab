@@ -7,9 +7,9 @@ Firebase_URL = 'https://raspberry-pi-01-27424.firebaseio.com/.json'
 led17 = LED(17)
 led22 = LED(22) ##設定led變數
 led27 = LED(27)
-led10 = LED(10)
-led09 = LED(9)
-led11 = LED(11) 
+led10 = LED(5)
+led09 = LED(6)
+led11 = LED(13) 
 led17.off()
 led22.off() ##在開始執行程式前先將LED全部關閉
 led27.off()
