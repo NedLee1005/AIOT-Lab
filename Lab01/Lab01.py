@@ -3,6 +3,8 @@ from requests import get ##import requests 中的get方法
 import json ## 匯入json Library
 import time
 Firebase_URL = 'https://raspberry-pi-01-27424.firebaseio.com/.json'
+# https://lab01-ee469-default-rtdb.firebaseio.com/
+
 ## 新增一個存放剛剛的firebase 的連結
 led17 = LED(17)
 led22 = LED(22) ##設定led變數
