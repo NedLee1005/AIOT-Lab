@@ -20,12 +20,12 @@ while True:
     LedData = get(Firebase_URL).json()['LED']
 ## 宣告ledData，並讓它用get 方式去讀取Firebase的網址，並轉成json 格式，
 取得資料庫裡led 欄位底下的資料。
-led17onoff = LedData['LED17'] ## 讀取led17的狀態
-led22onoff = LedData['LED22'] ## 讀取led22的狀態
-led27onoff = LedData['LED27'] ## 讀取led27的狀態
-led09onoff = LedData['LED-2-01']
-led10onoff = LedData['LED-2-02']
-led11onoff = LedData['LED-2-03']
+led17onoff = LedData['LED_R'] ## 讀取led17的狀態
+led22onoff = LedData['LED_G'] ## 讀取led22的狀態
+led27onoff = LedData['LED_B'] ## 讀取led27的狀態
+led09onoff = LedData['LED-2-R']
+led10onoff = LedData['LED-2-G']
+led11onoff = LedData['LED-2-B']
 Flash=LedData['Flashing']
 led17.value = led17onoff
 led22.value = led22onoff
